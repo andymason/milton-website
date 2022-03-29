@@ -77,7 +77,7 @@
   border: var(--border-width) solid var(--colour-black);
   background-color: var(--colour-white);
   border-radius: var(--corner-radius-small);
-  max-width: 85%;
+  width: 100%;
 }
 
 .column {
@@ -541,6 +541,10 @@ section:last-of-type {
   .column--text.column--intro {
     border-left: none;
     border-right: var(--border-width) solid var(--colour-black, #f0f);
+  }
+
+  .gif {
+    max-width: 85%;
   }
 
   .column--livedemo {
