@@ -4,11 +4,292 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Milton</title>
+
+    <link type="text/css" rel="stylesheet" href="css/main.css" />
+    <link rel="icon" type="image/png" href="images/milton_logo.png" />
+
+    <title>Milton – Figma to HTML plugin</title>
+
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="Milton – Figma to HTML plugin" />
+    <meta
+      name="description"
+      content="Milton is a Figma plugin that makes it easy to convert your graphics into responsive HTML."
+    />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://milton.fun/" />
+    <meta property="og:title" content="Milton – Figma to HTML plugin" />
+    <meta
+      property="og:description"
+      content="Milton is a Figma plugin that makes it easy to convert your graphics into responsive HTML."
+    />
+    <meta
+      property="og:image"
+      content="https://milton.fun/images/welcome_promo.png"
+    />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://milton.fun/" />
+    <meta
+      property="twitter:description"
+      content="Milton is a Figma plugin that makes it easy to convert your graphics into responsive HTML."
+    />
+    <meta
+      property="twitter:image"
+      content="https://milton.fun/images/welcome_promo.png"
+    />
   </head>
   <body>
-    <p>
-      <img src="milton.jpg" />
-    </p>
+    <main class="container">
+      <header class="header">
+        <h1 class="header__title">milton</h1>
+        <a
+          href="https://www.figma.com/community/plugin/844954779092514561/milton"
+          class="btn bnt--medium btn__install"
+          >Get plugin</a
+        >
+
+        <nav class="navigation">
+          <span
+            class="navigation__toggle"
+            aria-expanded="false"
+            aria-controls="navigation__list"
+          >
+            Menu
+          </span>
+
+          <ul class="navigation__list">
+            <li class="navigation__item">
+              <a href="#intro" class="navigation__link">Intro</a>
+            </li>
+
+            <li class="navigation__item">
+              <a href="#howtouse" class="navigation__link">How to use</a>
+            </li>
+
+            <li class="navigation__item">
+              <a href="#livedemo" class="navigation__link">Live demo</a>
+            </li>
+
+            <li class="navigation__item">
+              <a
+                href="https://www.figma.com/community/plugin/844954779092514561/milton"
+                class="navigation__link"
+                >Get the plugin</a
+              >
+            </li>
+
+            <li class="navigation__item">
+              <a href="#credits" class="navigation__link">Credits</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <section id="intro" class="section section--intro">
+        <div class="column column--text column--intro">
+          <h2 class="intro__title">Hi 👋</h2>
+          <p class="intro__text">
+            Milton is a Figma plugin that makes it easy to convert your graphics
+            into responsive HTML and CSS. Download or copy the code and embed
+            directly on to your web-page
+          </p>
+        </div>
+
+        <div class="column column--gif column--intro">
+          <img
+            class="gif"
+            width="1352"
+            height="676"
+            alt="REPLACE_ME"
+            src="images/welcome_promo.png"
+            srcset="
+              images/welcome_promo_small.png  676w,
+              images/welcome_promo.png       1352w
+            "
+            sizes="(max-width: 700px) 400px, 1200px"
+          />
+        </div>
+      </section>
+
+      <section id="howtouse" class="section section--howtouse">
+        <div class="column column--heading column--step1">
+          <h2>How to use milton?</h2>
+        </div>
+
+        <div class="row row--step1">
+          <div class="column column--text column--step1">
+            <h3 class="step__title">
+              <span class="step__count">Step 1</span> Select frames
+            </h3>
+            <p class="step__text">
+              We recommend creating your design across a minimum of 3
+              breakpoints. Think about small, medium and large devices
+            </p>
+          </div>
+
+          <div class="column column--gif column--step1">
+            <video
+              class="gif"
+              src="videos/frames_1080.mp4"
+              poster="./videos/frames_poster.png"
+              preload="auto"
+              autoplay
+              muted
+              loop
+            />
+          </div>
+        </div>
+
+        <div class="row row--step2">
+          <div class="column column--text column--step2">
+            <h3 class="step__title">
+              <span class="step__count">Step 2</span> Test breakpoints
+            </h3>
+            <p class="step__text">
+              Milton makes it easy to test your responsive designs. Simply
+              resize the preview window to see your design across various
+              breakpoints
+            </p>
+          </div>
+
+          <div class="column column--gif column--step2">
+            <video
+              class="gif"
+              src="videos/resize_1080.mp4"
+              poster="./videos/resize_poster.png"
+              preload="auto"
+              autoplay
+              muted
+              loop
+            />
+          </div>
+        </div>
+
+        <div class="row row--step3">
+          <div class="column column--text column--step3">
+            <h3 class="step__title">
+              <span class="step__count">Step 3</span> Copy or download
+            </h3>
+            <p class="step__text">
+              Download the code or copy to clipboard before dropping directly
+              into your web-page or CMS
+            </p>
+          </div>
+
+          <div class="column column--gif column--step3">
+            <video
+              class="gif"
+              src="videos/download_1080.mp4"
+              poster="./videos/download_poster.png"
+              preload="auto"
+              autoplay
+              muted
+              loop
+            />
+          </div>
+        </div>
+
+        <div class="row row--step4">
+          <div class="column column--text column--step4">
+            <h3 class="step__title">
+              <span class="step__count">Step 4</span> View in browser
+            </h3>
+            <p class="step__text">
+              Your responsive design is live. It’s that simple!
+            </p>
+          </div>
+
+          <div class="column column--gif column--step4">
+            <video
+              class="gif"
+              src="videos/responsive-1080p.mp4"
+              poster="./videos/responsive-poster.jpg"
+              preload="auto"
+              autoplay
+              muted
+              loop
+            />
+          </div>
+        </div>
+      </section>
+
+      <section id="livedemo" class="section section--livedemo">
+        <div class="column column--livedemo">
+          <div class="livedemo__text livedemo__text--mobile">
+            <h2>Live demo</h2>
+            <p>Milton makes it easy to test your responsive designs</p>
+          </div>
+
+          <div class="livedemo__text livedemo__text--desktop">
+            <h2>Test it out</h2>
+            <p>
+              Milton makes it easy to test your responsive designs. Simply
+              resize the preview window to see your design across various
+              breakpoints
+            </p>
+          </div>
+
+          <div class="demo__wrapper">
+            <div class="demo__inner">
+              <iframe class="demo__iframe" src="milton_demo.html"></iframe>
+            </div>
+            <div class="demo_resize-hint">try resizing</div>
+          </div>
+
+          <p class="demo__link">
+            <a
+              href="https://www.figma.com/community/plugin/844954779092514561/milton"
+              class="btn bnt--big"
+              >Get plugin</a
+            >
+          </p>
+        </div>
+      </section>
+
+      <section id="credits" class="section section--credits">
+        <div class="row row--thanks">
+          <p>
+            Created at
+            <img
+              src="images/telegraph_logo.svg"
+              alt="The Telegraph"
+              class="telegraph_logo"
+            />
+            by the Product Design Team
+          </p>
+        </div>
+        <div class="column column--credits">
+          <a
+            class="credits__person credits__person--andrew"
+            href="https://coderonfire.com"
+          >
+            <span class="credits__role">Developer</span>
+            <span class="credits__name">Andrew Mason </span>
+          </a>
+
+          <a
+            class="credits__person credits__person--ed"
+            href="https://linkedin.com/in/edgold01"
+          >
+            <span class="credits__role">Product designer</span>
+            <span class="credits__name"> Ed Goldman </span>
+          </a>
+
+          <a
+            class="credits__person credits__person--roxy"
+            href="https://linkedin.com/in/roxanne-p-b47038222"
+          >
+            <span class="credits__role">Product designer</span>
+            <span class="credits__name">Roxanne Poynter</span>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <script src="main.js"></script>
   </body>
 </html>

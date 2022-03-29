@@ -1,0 +1,18 @@
+{
+  "name": "milton-website",
+  "version": "1.0.0",
+  "description": "Static website for the Milton Figma plugin.",
+  "main": "www/index.html",
+  "scripts": {
+    "dev": "esbuild --bundle --sourcemap --servedir=www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:andymason/milton-website.git"
+  },
+  "author": "Andrew Mason",
+  "license": "MIT",
+  "dependencies": {
+    "esbuild": "^0.14.28"
+  }
+}
